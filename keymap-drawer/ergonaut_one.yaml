@@ -94,7 +94,7 @@ layers:
   - KP MINUS
   - Vol Up
   - Home
-  - Print Scrn
+  - ↑
   - Page Up
   - SLCK
   - CLCK
@@ -106,7 +106,7 @@ layers:
   - KP PLUS
   - MUTE
   - ←
-  - ↑
+  - DOWN ARROW
   - →
   - Insert
   - {t: APP, h: Ctrl}
@@ -118,7 +118,7 @@ layers:
   - KP DOT
   - Vol Down
   - End
-  - ↓
+  - PRINTSCREEN
   - Page Down
   - Pause Break
   - Alt
