@@ -13,16 +13,16 @@ layers:
   - P
   - '['
   - {t: '`', h: Ctrl}
-  - {t: A, h: Ctrl}
-  - {t: S, h: Alt}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RSHIFT}
-  - {t: K, h: RIGHT COMMAND}
-  - {t: L, h: Alt}
-  - {t: ;, h: Ctrl}
+  - J
+  - K
+  - L
+  - ;
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
   - Z
@@ -106,7 +106,7 @@ layers:
   - KP PLUS
   - MUTE
   - ←
-  - DOWN ARROW
+  - ↓
   - →
   - Insert
   - {t: APP, h: Ctrl}
