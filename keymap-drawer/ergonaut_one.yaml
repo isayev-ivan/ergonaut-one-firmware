@@ -39,9 +39,9 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - {t: BACKSPACE, h: lower}
+  - {t: ␣, h: Shift}
+  - {t: ESCAPE, h: raise}
   lower:
   - {t: F1, h: Gui}
   - F2
