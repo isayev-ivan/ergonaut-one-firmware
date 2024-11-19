@@ -1,6 +1,6 @@
 layers:
-  default:
-  - {t: ']', h: Gui}
+  mac_default_ru:
+  - AGr+ H
   - Q
   - W
   - E
@@ -12,19 +12,19 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: '`', h: LEFT ALT}
   - A
   - S
   - D
-  - F
+  - {t: F, h: symbol_right}
   - G
   - H
-  - J
+  - {t: J, h: symbol_left}
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: '''', h: RIGHT ALT}
+  - {t: ']', h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -34,16 +34,212 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: \, h: Alt}
+  - {t: AGr+Sft+ /, s: '!'}
+  - {t: AGr+ /, h: RIGHT CONTROL}
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: BACKSPACE, h: lower}
+  - {t: ⏎, h: LEFT META}
+  - {t: ESCAPE, h: RIGHT META}
+  - {t: BACKSPACE, h: Shift}
+  - {t: '&mac_to_en', h: raise}
+  mac_en:
+  - $
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - {t: '&', h: LEFT ALT}
+  - A
+  - S
+  - D
+  - {t: F, h: symbol_right}
+  - G
+  - H
+  - {t: J, h: symbol_left}
+  - K
+  - L
+  - ''''
+  - {t: '"', h: RIGHT ALT}
+  - {t: \, h: LEFT CONTROL}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - '{'
+  - '}'
+  - {t: AGr+Sft+ /, s: '!'}
+  - {t: AGr+ /, h: RIGHT CONTROL}
+  - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
-  - {t: ESCAPE, h: raise}
-  lower:
-  - {t: F1, h: Gui}
+  - {t: ⏎, h: LEFT META}
+  - {t: ESCAPE, h: RIGHT META}
+  - {t: BACKSPACE, h: Shift}
+  - {t: '&mac_to_ru', h: raise}
+  raise:
+  - settings
+  - KP SLASH
+  - '7'
+  - '8'
+  - '9'
+  - KP MINUS
+  - Vol Up
+  - Home
+  - ↑
+  - End
+  - PREVIOUS
+  - settings
+  - {t: '=', h: LEFT ALT}
+  - KP MULTIPLY
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - MUTE
+  - ←
+  - ↓
+  - →
+  - PLAY PAUSE
+  - {t: CAPSLOCK, h: RIGHT ALT}
+  - {t: ▽, type: trans}
+  - KP DOT
+  - '4'
+  - '5'
+  - '6'
+  - KP PLUS
+  - Vol Down
+  - PAGE UP
+  - Sft+Gui+ 3
+  - Page Down
+  - ⏭️
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol_left:
+  - AGr+ H
+  - AGr+ N
+  - '%'
+  - {t: '#', s: AGr+ I}
+  - '&mg_comma'
+  - AGr+ F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - {t: '=', s: AGr+ J}
+  - {t: '-', s: AGr+ K}
+  - {t: Ctl+ 6, s: AGr+ L}
+  - AGr+Sft+ ;
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AGr+ \
+  - '@'
+  - AGr+Sft+ -
+  - AGr+ -
+  - AGr+ `
+  - AGr+Sft+ `
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol_right:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mg_dot'
+  - AGr+ 9
+  - AGr+ 0
+  - {t: ▽, type: trans}
+  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - AGr+ ;
+  - AGr+ 7
+  - {t: (, s: AGr+Sft+ 6}
+  - {t: ), s: AGr+Sft+ 7}
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - AGr+ [
+  - AGr+ ]
+  - '!'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  settings:
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - Reset
+  - Boot
+  - Boot
+  - Reset
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - F1
   - F2
   - F3
   - F4
@@ -55,119 +251,9 @@ layers:
   - F10
   - F11
   - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - ↑
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↓
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - PRINTSCREEN
-  - Page Down
-  - Pause Break
-  - Alt
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
   - {type: held}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
