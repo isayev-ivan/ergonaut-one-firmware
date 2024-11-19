@@ -18,8 +18,8 @@
         compatible = "zmk,conditional-layers";
 
         tri-layer {
-            if-layers = <5 2>;
-            then-layer = <3>;
+            if-layers = <6 2>;
+            then-layer = <5>;
         };
     };
 
@@ -184,7 +184,7 @@
         mac_default_ru {
             bindings = <
 &kp RA(H)                       &kp Q  &kp W  &kp E      &kp R            &kp T              &kp Y                  &kp U                &kp I             &kp O       &kp P        &kp LBKT
-&mt LEFT_ALT GRAVE              &kp A  &kp S  &kp D      &hrm_left 4 F    &kp G              &kp H                  &hrm_right 3 J       &kp K             &kp L       &kp SEMI     &mt RIGHT_ALT SQT
+&mt LEFT_ALT GRAVE              &kp A  &kp S  &kp D      &hrm_left 3 F    &kp G              &kp H                  &hrm_right 4 J       &kp K             &kp L       &kp SEMI     &mt RIGHT_ALT SQT
 &mt LEFT_CONTROL RIGHT_BRACKET  &kp Z  &kp X  &kp C      &kp V            &kp B              &kp N                  &kp M                &kp COMMA         &kp PERIOD  &quest_excl  &mt RIGHT_CONTROL RA(SLASH)
                                               &lt 2 TAB  &mt LSHFT SPACE  &mt LEFT_META RET  &mt RIGHT_META ESCAPE  &mt RSHFT BACKSPACE  &to_en_raise 2 0
             >;
@@ -193,7 +193,7 @@
         mac_en {
             bindings = <
 &kp DOLLAR                  &kp Q  &kp W  &kp E      &kp R            &kp T              &kp Y                  &kp U                &kp I             &kp O            &kp P             &kp LBKT
-&mt LEFT_ALT AMPERSAND      &kp A  &kp S  &kp D      &hrm_left 4 F    &kp G              &kp H                  &hrm_right 3 J       &kp K             &kp L            &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
+&mt LEFT_ALT AMPERSAND      &kp A  &kp S  &kp D      &hrm_left 3 F    &kp G              &kp H                  &hrm_right 4 J       &kp K             &kp L            &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
 &mt LEFT_CONTROL BACKSLASH  &kp Z  &kp X  &kp C      &kp V            &kp B              &kp N                  &kp M                &kp LEFT_BRACE    &kp RIGHT_BRACE  &quest_excl       &mt RIGHT_CONTROL RA(SLASH)
                                           &lt 2 TAB  &mt LSHFT SPACE  &mt LEFT_META RET  &mt RIGHT_META ESCAPE  &mt RSHFT BACKSPACE  &to_ru_raise 2 0
             >;
@@ -208,21 +208,21 @@
             >;
         };
 
-        symbol_left {
-            bindings = <
-&kp RA(H)          &kp RA(N)    &kp PERCENT        &up_hash       &mg_comma      &kp RA(F)              &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &kp PLUS     &equal_left        &minus_down    &comma_right   &kp RA(LS(SEMICOLON))  &trans  &trans  &trans  &trans  &trans  &trans
-&kp RA(BACKSLASH)  &kp AT_SIGN  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(GRAVE)  &kp RA(LS(GRAVE))      &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &trans         &trans         &trans                 &trans  &trans  &trans
-            >;
-        };
-
         symbol_right {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans             &mg_dot     &kp RA(N9)            &kp RA(N0)             &trans           &kp UNDERSCORE
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(SEMICOLON)  &kp RA(N7)  &bracket_left         &bracket_right         &kp ASTERISK     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp N6             &kp N7      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp EXCLAMATION  &kp PIPE
                         &trans  &trans  &trans  &trans             &trans      &trans
+            >;
+        };
+
+        symbol_left {
+            bindings = <
+&kp RA(H)          &kp RA(N)    &kp PERCENT        &up_hash       &mg_comma      &kp RA(F)              &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &kp PLUS     &equal_left        &minus_down    &comma_right   &kp RA(LS(SEMICOLON))  &trans  &trans  &trans  &trans  &trans  &trans
+&kp RA(BACKSLASH)  &kp AT_SIGN  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(GRAVE)  &kp RA(LS(GRAVE))      &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &trans         &trans         &trans                 &trans  &trans  &trans
             >;
         };
 

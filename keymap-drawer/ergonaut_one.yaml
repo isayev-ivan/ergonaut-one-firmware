@@ -128,49 +128,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  symbol_left:
-  - AGr+ H
-  - AGr+ N
-  - '%'
-  - {t: '#', s: AGr+ I}
-  - '&mg_comma'
-  - AGr+ F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
-  - {t: '=', s: AGr+ J}
-  - {t: '-', s: AGr+ K}
-  - {t: Ctl+ 6, s: AGr+ L}
-  - AGr+Sft+ ;
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AGr+ \
-  - '@'
-  - AGr+Sft+ -
-  - AGr+ -
-  - AGr+ `
-  - AGr+Sft+ `
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   symbol_right:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,6 +165,49 @@ layers:
   - AGr+ ]
   - '!'
   - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol_left:
+  - AGr+ H
+  - AGr+ N
+  - '%'
+  - {t: '#', s: AGr+ I}
+  - '&mg_comma'
+  - AGr+ F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - {t: '=', s: AGr+ J}
+  - {t: '-', s: AGr+ K}
+  - {t: Ctl+ 6, s: AGr+ L}
+  - AGr+Sft+ ;
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AGr+ \
+  - '@'
+  - AGr+Sft+ -
+  - AGr+ -
+  - AGr+ `
+  - AGr+Sft+ `
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
