@@ -87,7 +87,7 @@
         comma_right: comma_right {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_RIGHT";
-            bindings = <&kp RC(N6)>, <&kp RA(L)>;
+            bindings = <&kp RA(N6)>, <&kp RA(L)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;

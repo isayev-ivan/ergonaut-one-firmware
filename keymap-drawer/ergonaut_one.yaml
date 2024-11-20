@@ -188,7 +188,7 @@ layers:
   - +
   - {t: '=', s: AGr+ J}
   - {t: '-', s: AGr+ K}
-  - {t: Ctl+ 6, s: AGr+ L}
+  - {t: AGr+ 6, s: AGr+ L}
   - AGr+Sft+ ;
   - {t: ▽, type: trans}
   - {type: held}
