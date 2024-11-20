@@ -44,46 +44,46 @@ layers:
   - {t: '&mac_to_en', h: raise}
   mac_en:
   - $
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '&', h: LEFT ALT}
-  - A
-  - S
-  - D
-  - {t: F, h: symbol_right}
-  - G
-  - H
-  - {t: J, h: symbol_left}
-  - K
-  - L
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''''
   - {t: '"', h: RIGHT ALT}
   - {t: \, h: LEFT CONTROL}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '}'
-  - {t: AGr+Sft+ /, s: '!'}
-  - {t: AGr+ /, h: RIGHT CONTROL}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: LEFT META}
-  - {t: ESCAPE, h: RIGHT META}
-  - {t: BACKSPACE, h: Shift}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '&mac_to_ru', h: raise}
   raise:
   - settings

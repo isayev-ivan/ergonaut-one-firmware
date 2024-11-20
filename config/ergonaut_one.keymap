@@ -185,10 +185,10 @@
 
         mac_en {
             bindings = <
-&kp DOLLAR                  &kp Q  &kp W  &kp E      &kp R            &kp T              &kp Y                  &kp U                &kp I             &kp O            &kp P             &kp LBKT
-&mt LEFT_ALT AMPERSAND      &kp A  &kp S  &kp D      &hrm_left 3 F    &kp G              &kp H                  &hrm_right 4 J       &kp K             &kp L            &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
-&mt LEFT_CONTROL BACKSLASH  &kp Z  &kp X  &kp C      &kp V            &kp B              &kp N                  &kp M                &kp LEFT_BRACE    &kp RIGHT_BRACE  &quest_excl       &mt RIGHT_CONTROL RA(SLASH)
-                                          &lt 2 TAB  &mt LSHFT SPACE  &mt LEFT_META RET  &mt RIGHT_META ESCAPE  &mt RSHFT BACKSPACE  &to_ru_raise 2 0
+&kp DOLLAR                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans            &trans
+&mt LEFT_ALT AMPERSAND      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
+&mt LEFT_CONTROL BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans            &trans
+                                            &trans  &trans  &trans  &trans  &trans  &to_ru_raise 2 0
             >;
         };
 
