@@ -212,10 +212,10 @@
 
         symbol_left {
             bindings = <
-&kp RA(H)          &kp RA(N)    &kp PERCENT        &up_hash       &mg_comma      &kp RA(F)              &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &kp PLUS     &equal_left        &minus_down    &comma_right   &kp RA(LS(SEMICOLON))  &trans  &trans  &trans  &trans  &trans  &trans
-&kp RA(BACKSLASH)  &kp AT_SIGN  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(GRAVE)  &kp RA(LS(GRAVE))      &trans  &trans  &trans  &trans  &trans  &trans
-                                                   &trans         &trans         &trans                 &trans  &trans  &trans
+&kp RA(H)          &kp RA(N)    &kp PERCENT        &up_hash       &mg_comma          &kp RA(F)              &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &kp PLUS     &equal_left        &minus_down    &comma_right       &kp RA(LS(SEMICOLON))  &trans  &trans  &trans  &trans  &trans  &trans
+&kp RA(BACKSLASH)  &kp AT_SIGN  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(RC(GRAVE))  &kp RA(LS(RC(GRAVE)))  &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &trans         &trans             &trans                 &trans  &trans  &trans
             >;
         };
 
