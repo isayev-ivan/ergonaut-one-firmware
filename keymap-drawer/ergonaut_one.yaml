@@ -118,7 +118,7 @@ layers:
   - KP PLUS
   - Vol Down
   - PAGE UP
-  - Sft+Gui+ 3
+  - Sft+Gui+ 4
   - Page Down
   - ⏭️
   - {t: ▽, type: trans}
