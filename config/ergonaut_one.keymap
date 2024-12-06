@@ -205,7 +205,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans             &mg_dot     &kp RA(N9)            &kp RA(N0)             &trans           &kp UNDERSCORE
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(SEMICOLON)  &kp RA(N7)  &bracket_left         &bracket_right         &kp ASTERISK     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp N6             &kp N7      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp EXCLAMATION  &kp PIPE
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans      &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp EXCLAMATION  &kp PIPE
                         &trans  &trans  &trans  &trans             &trans      &trans
             >;
         };
