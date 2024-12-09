@@ -200,8 +200,8 @@ layers:
   - '@'
   - AGr+Sft+ -
   - AGr+ -
-  - AGr+Ctl+ `
-  - AGr+Sft+Ctl+ `
+  - AGr+ `
+  - AGr+Sft+ `
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
