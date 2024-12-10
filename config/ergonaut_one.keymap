@@ -185,9 +185,9 @@
 
         mac_en {
             bindings = <
-&kp DOLLAR                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans            &kp UNDERSCORE
-&mt LEFT_ALT AMPERSAND      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
-&mt LEFT_CONTROL BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans            &trans
+&kp DOLLAR                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans             &trans            &kp UNDERSCORE
+&mt LEFT_ALT AMPERSAND      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans             &kp SINGLE_QUOTE  &mt RIGHT_ALT DOUBLE_QUOTES
+&mt LEFT_CONTROL BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans            &trans
                                             &trans  &trans  &trans  &trans  &trans  &to_ru_raise 2 0
             >;
         };
