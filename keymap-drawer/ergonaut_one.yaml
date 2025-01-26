@@ -139,7 +139,7 @@ layers:
   - '&mg_dot'
   - AltGr+9
   - AltGr+0
-  - {t: ▽, type: trans}
+  - AltGr+E
   - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
