@@ -257,3 +257,28 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [5, 4]
+  k: Alt+Sft+[
+- p: [6, 7]
+  k: Alt+Sft+]
+- p: [28, 29]
+  k: (
+- p: [30, 31]
+  k: )
+- p: [16, 17]
+  k: Alt+[
+- p: [18, 19]
+  k: Alt+]
+- p: [4, 3]
+  k: '-'
+- p: [7, 8]
+  k: Sft+-
+- p: [15, 16]
+  k: Sft+AltGr+'
+- p: [19, 20]
+  k: AltGr+'
+- p: [27, 28]
+  k: Sft+AltGr+<
+- p: [31, 32]
+  k: Sft+AltGr+>
