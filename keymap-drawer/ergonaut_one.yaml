@@ -1,6 +1,6 @@
 layers:
   mac_default_ru:
-  - AGr+ H
+  - AltGr+H
   - Q
   - W
   - E
@@ -34,8 +34,8 @@ layers:
   - M
   - ','
   - .
-  - {t: AGr+Sft+ /, s: '!'}
-  - {t: AGr+ /, h: RIGHT CONTROL}
+  - {t: AltGr+Sft+/, s: '!'}
+  - {t: AltGr+/, h: RIGHT CONTROL}
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: LEFT META}
@@ -118,10 +118,10 @@ layers:
   - KP PLUS
   - Vol Down
   - PAGE UP
-  - Sft+Gui+ 4
+  - Sft+Gui+4
   - Page Down
   - ⏭️
-  - {t: ▽, type: trans}
+  - Sft+Gui+6
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,8 +137,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mg_dot'
-  - AGr+ 9
-  - AGr+ 0
+  - AltGr+9
+  - AltGr+0
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
@@ -147,10 +147,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - AGr+ ;
-  - AGr+ 7
-  - {t: (, s: AGr+Sft+ 6}
-  - {t: ), s: AGr+Sft+ 7}
+  - AltGr+;
+  - AltGr+7
+  - {t: (, s: AltGr+Sft+6}
+  - {t: ), s: AltGr+Sft+7}
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,8 +161,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AGr+ [
-  - AGr+ ]
+  - AltGr+[
+  - AltGr+]
   - '!'
   - '|'
   - {t: ▽, type: trans}
@@ -172,12 +172,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   symbol_left:
-  - AGr+ H
-  - AGr+ N
+  - AltGr+H
+  - AltGr+N
   - '%'
-  - {t: '#', s: AGr+ I}
+  - {t: '#', s: AltGr+I}
   - '&mg_comma'
-  - AGr+ F
+  - AltGr+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,22 +186,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
-  - {t: '=', s: AGr+ J}
-  - {t: '-', s: AGr+ K}
-  - {t: AGr+ 6, s: AGr+ L}
-  - AGr+Sft+ ;
+  - {t: '=', s: AltGr+J}
+  - {t: '-', s: AltGr+K}
+  - {t: AltGr+6, s: AltGr+L}
+  - AltGr+Sft+;
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AGr+ \
+  - AltGr+\
   - '@'
-  - AGr+Sft+ -
-  - AGr+ -
-  - AGr+ `
-  - AGr+Sft+ `
+  - AltGr+Sft+-
+  - AltGr+-
+  - AltGr+`
+  - AltGr+Sft+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
