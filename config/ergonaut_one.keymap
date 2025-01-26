@@ -186,12 +186,12 @@
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
 
         left_bracket {
@@ -206,32 +206,32 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <4 3>;
+            key-positions = <15 16>;
         };
 
         underscore {
             bindings = <&kp LS(MINUS)>;
-            key-positions = <7 8>;
+            key-positions = <19 20>;
         };
 
         quote {
             bindings = <&kp LS(RA(SQT))>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
         };
 
         apostrophe {
             bindings = <&kp RA(SQT)>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
         };
 
         less {
             bindings = <&kp LS(RA(LESS_THAN))>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
         };
 
         greater {
             bindings = <&kp LS(RA(GREATER_THAN))>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
         };
     };
 
