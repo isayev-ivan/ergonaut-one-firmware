@@ -268,8 +268,10 @@ combos:
   k: )
 - p: [16, 17]
   k: Alt+[
+  l: [mac_default_ru, mac_en]
 - p: [18, 19]
   k: Alt+]
+  l: [mac_default_ru, mac_en]
 - p: [15, 16]
   k: '-'
 - p: [19, 20]
