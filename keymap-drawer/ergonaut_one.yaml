@@ -260,12 +260,16 @@ layers:
 combos:
 - p: [5, 4]
   k: Alt+Sft+[
+  l: [mac_default_ru, mac_en]
 - p: [6, 7]
   k: Alt+Sft+]
+  l: [mac_default_ru, mac_en]
 - p: [28, 27]
   k: (
+  l: [mac_default_ru, mac_en]
 - p: [31, 32]
   k: )
+  l: [mac_default_ru, mac_en]
 - p: [16, 17]
   k: Alt+[
   l: [mac_default_ru, mac_en]
@@ -274,13 +278,19 @@ combos:
   l: [mac_default_ru, mac_en]
 - p: [15, 16]
   k: '-'
+  l: [mac_default_ru, mac_en]
 - p: [19, 20]
   k: Sft+-
+  l: [mac_default_ru, mac_en]
 - p: [3, 4]
   k: Sft+AltGr+'
+  l: [mac_default_ru, mac_en]
 - p: [7, 8]
   k: AltGr+'
+  l: [mac_default_ru, mac_en]
 - p: [28, 29]
   k: Sft+AltGr+<
+  l: [mac_default_ru, mac_en]
 - p: [31, 30]
   k: Sft+AltGr+>
+  l: [mac_default_ru, mac_en]

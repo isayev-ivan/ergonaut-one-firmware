@@ -180,21 +180,33 @@
         left_brace {
             bindings = <&kp LA(LS(LEFT_BRACKET))>;
             key-positions = <5 4>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         right_brace {
             bindings = <&kp LA(LS(RIGHT_BRACKET))>;
             key-positions = <6 7>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <28 27>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <31 32>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         left_bracket {
@@ -216,31 +228,49 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         underscore {
             bindings = <&kp LS(MINUS)>;
             key-positions = <19 20>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         quote {
             bindings = <&kp LS(RA(SQT))>;
             key-positions = <3 4>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         apostrophe {
             bindings = <&kp RA(SQT)>;
             key-positions = <7 8>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         less {
             bindings = <&kp LS(RA(LESS_THAN))>;
             key-positions = <28 29>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
 
         greater {
             bindings = <&kp LS(RA(GREATER_THAN))>;
             key-positions = <31 30>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1>;
         };
     };
 
